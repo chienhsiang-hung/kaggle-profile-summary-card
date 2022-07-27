@@ -1,5 +1,7 @@
 from http.server import BaseHTTPRequestHandler
 from util.crawler import kaggle_crawler
+import requests
+print(requests.__version__)
 
 class handler(BaseHTTPRequestHandler):
 
