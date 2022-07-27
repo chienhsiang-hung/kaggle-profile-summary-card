@@ -56,9 +56,7 @@ class handler(BaseHTTPRequestHandler):
 </html>
 
     '''
+
     self.wfile.write(html.encode('utf-8'))
-    return {
-      "statusCode": 200, 
-      "headers": {'content-type': 'text/html'},
-      "body": 'hello word'
-    }
+    
+    return
