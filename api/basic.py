@@ -49,7 +49,7 @@ class handler(BaseHTTPRequestHandler):
 
 <script>
     function nav_to_kaggle() {
-        window.open('https://www.kaggle.com/chienhsianghung', '_blank').focus();
+        window.open('https://www.kaggle.com/'''+user+'''', '_blank').focus();
     }
 </script>
 </body>
