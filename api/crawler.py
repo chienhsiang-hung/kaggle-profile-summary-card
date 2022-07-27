@@ -5,7 +5,7 @@ def kaggle_crawler(username):
     resp = requests.get(url).text
     resp = resp[resp.find('ProfileContainerReact'):]
     resp = resp[resp.find('Kaggle.State.push'):]
-    print
+    
     push_json = resp[18: resp.find('performance &&') -2 ]
     push_json = json.loads(push_json)
 
@@ -17,8 +17,11 @@ def kaggle_crawler(username):
     organization = push_json['organization'] if 'organization' in push_json else ''
     performanceTier = push_json['performanceTier'] if 'performanceTier' in push_json else 'NOVICE'
     performanceTierCategory = push_json['performanceTierCategory'].split('_')[-1]
+    userJoinDate = push_json['userJoinDate']
 
-    return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory
+    userAchieveUrl = 
+
+    return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate
 
     # if 'occupation' in resp:
     #     occupation = resp[resp.find('occupation')+13:resp.find('organization')-3]
