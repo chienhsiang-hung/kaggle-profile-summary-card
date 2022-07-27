@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler
-from crawler import kaggle_crawler
+from util.crawler import kaggle_crawler
 
 class handler(BaseHTTPRequestHandler):
 
@@ -58,5 +58,5 @@ class handler(BaseHTTPRequestHandler):
     '''
 
     self.wfile.write(html.encode('utf-8'))
-    
+
     return
