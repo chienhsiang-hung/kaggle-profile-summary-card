@@ -1,39 +1,174 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- SEO -->
+    <meta property="og:title" content="Kaggle Profile Summary Card"/>
+    <meta property="og:url" content="https://chienhsiang-hung.github.io/kaggle-profile-summary-card/"/>
+    <meta property="og:image" content="https://www.kaggle.com/static/images/site-logo.svg"/>
+    <meta name="keywords" content="kaggle profile api, kaggle summary card"/>
+    <meta property="og:description" name="description"  content="Use this to showcase your achievement on Kaggle">
+    <meta name="author" content="Hung, Chien-Hsiang"/>
+    <meta name="copyright" content="GNU General Public License v3.0"/>
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>Kaggle Profile Summary Card</title>
 
+    <meta name="google-site-verification" content="SyEY88jadkmY5tP6AMEBi5rqu2hNV4P81pJ6uTusYFM" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EB1W4TXEV1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-EB1W4TXEV1');
+    </script>
+    <!-- AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5348991030538024" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <style>
       a, a:hover {color: inherit;}
+      
       .table-sm th, .table-success th {
         min-width: 16ch;
       }
-    </style>
+    </style>    
   </head>
 
-  <body>
-    <button id="button" type='button'>Get Reponse</button>
-    <p id="setup"></p>
-    <p id="punchline"></p>
+  <body class="d-flex flex-column h-100">
 
-    <iframe src="https://vercel-api-test-rho.vercel.app/api/date?ChienHsiang-Hung" title="W3Schools Free Online Web Tutorials" width="540" style="border:none;">
-    </iframe>
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+      <div class="container">
+        <h1 class="mt-5">Kaggle Profile Summary Card</h1>
 
-    <script>
-      document.addEventListener("click", function (event) {
-        // Checking if the button was clicked
-        if (!event.target.matches("#button")) return;
+        <div class="row">
+          <div class="col">
+            <div class="input-group input-group-sm mb-3">
+              <span class="input-group-text">@</span>
+              <input type="text" class="form-control" value="chienhsianghung" oninput="bs_prc()">
+              <button type="button" class="btn btn-outline-primary col-md-1">Submit</button>
+            </div>
+            
+          </div>
+        </div>
 
-        fetch("https://vercel-api-test-rho.vercel.app/api/date?your_name")
-        .then((response) => response.json())
-        .then((data) => console.log(data));
-      });
-    </script>
+        <div class="row">
+          <iframe src="https://hsiang-kaggle-card.vercel.app/api/basic?chienhsianghung" title="W3Schools Free Online Web Tutorials" width="100%" height="300" style="border:none; min-width: 800px;">
+          </iframe>
+        </div>
+
+
+        <div class="row">
+          <div class="col">
+            <table class="table table-borderless table-sm">
+              <thead>
+                <tr>
+                  <th colspan="2">
+                    <h2 class="en">Base Case Price</h2>
+                    <h2 class="tw">基礎價格參數</h2>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="en">Underlying Price</th>
+                  <th scope="row" class="tw">標的價</th>
+                  <td>
+                    <div class="input-group input-group-sm mb-3">
+                      <input type="number" class="form-control" id="S" value=100 oninput="bs_prc()">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="en">Exercise Price</th>
+                  <th scope="row" class="tw">執行價</th>
+                  <td>
+                    <div class="input-group input-group-sm mb-3">
+                      <input type="number" class="form-control" id="X" value=100 oninput="bs_prc()">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="en">Days</th>
+                  <th scope="row" class="tw">到期天數</th>
+                  <td>
+                    <div class="input-group input-group-sm mb-3">
+                      <input type="number" class="form-control" id="T" value=30 oninput="bs_prc()">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="en">Volatility</th>
+                  <th scope="row" class="tw">波動率</th>
+                  <td>
+                    <div class="input-group input-group-sm mb-3">
+                      <input type="number" class="form-control" id="sigma" value=30 oninput="bs_prc()">
+                      <span class="input-group-text">%</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="en">Interest Rate</th>
+                  <th scope="row" class="tw">無風險利率</th>
+                  <td>
+                    <div class="input-group input-group-sm mb-3">
+                      <input type="number" class="form-control" id="Rate" value=5 oninput="bs_prc()">
+                      <span class="input-group-text">%</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th scope="col">
+                    <h3 class="en">Call</h3>
+                    <h3 class="tw">買權</h3>
+                  </th>
+                  <th scope="col">
+                    <h3 class="en">Put</h3>
+                    <h3 class="tw">賣權</h3>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-success">
+                  <th scope="row" class="en">Theoretical Price</th>
+                  <th scope="row" class="tw">理論價</th>
+                  <td id="Call"></td>
+                  <td id="Put"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--
+        <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
+        <p>Back to <a href="/docs/5.2/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+        -->
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">
+          <p>Powered by <a href="https://chienhsiang-hung.github.io/" target="_blank">@Hsiang</a></p>
+        </span>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
