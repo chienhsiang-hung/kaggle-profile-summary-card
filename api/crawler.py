@@ -28,7 +28,7 @@ def kaggle_crawler(username):
     }
     userAchieveUrl = userAchieveUrl_switcher.get(performanceTier)
 
-    return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate, userAchieveUrl
+    return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier.capitalize(), performanceTierCategory.capitalize(), userJoinDate, userAchieveUrl
 
     # if 'occupation' in resp:
     #     occupation = resp[resp.find('occupation')+13:resp.find('organization')-3]
