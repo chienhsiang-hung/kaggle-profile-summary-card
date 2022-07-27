@@ -6,7 +6,7 @@ class handler(BaseHTTPRequestHandler):
   def do_GET(self):
     path = self.path
     user = path.split('?')[1]
-    userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate, userAchieveUrl = kaggle_crawler(user)
+    userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate, userAchieveUrl, colorAchieve = kaggle_crawler(user)
     self.send_response(200)
     self.send_header('Content-type', 'text/html')
     self.end_headers()
@@ -42,7 +42,7 @@ class handler(BaseHTTPRequestHandler):
     </div>
     <div class="col-md-3" style="text-align: center;">
         <img src="'''+userAchieveUrl+'''" class="img-fluid rounded-start" alt="...">
-        <h6 style="color:#95628f;">'''+performanceTierCategory+''' '''+performanceTier+'''</h6>
+        <h6 style="color:'''+colorAchieve+''';">'''+performanceTierCategory+''' '''+performanceTier+'''</h6>
       </div>
   </div>
 </div>
