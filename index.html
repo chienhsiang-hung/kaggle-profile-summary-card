@@ -18,6 +18,19 @@
   </head>
 
   <body>
-    hello world
+    <button id="button" type='button'>Get Joke</button>
+    <p id="setup"></p>
+    <p id="punchline"></p>
+
+    <script>
+      document.addEventListener("click", function (event) {
+        // Checking if the button was clicked
+        if (!event.target.matches("#button")) return;
+
+        fetch("<https://vercel-api-test-rho.vercel.app/api/date?your_name>")
+        .then((response) => response.json())
+        .then((data) => console.log(data));
+      });
+    </script>
   </body>
 </html>
