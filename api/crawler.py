@@ -17,11 +17,18 @@ def kaggle_crawler(username):
     organization = push_json['organization'] if 'organization' in push_json else ''
     performanceTier = push_json['performanceTier'] if 'performanceTier' in push_json else 'NOVICE'
     performanceTierCategory = push_json['performanceTierCategory'].split('_')[-1]
-    userJoinDate = push_json['userJoinDate']
+    userJoinDate = push_json['userJoinDate'][:10]
 
-    userAchieveUrl = 
+    userAchieveUrl_switcher = {
+        'NOVICE': 'https://www.kaggle.com/static/images/tiers/novice@96.png',
+        'CONTRIBUTOR': 'https://www.kaggle.com/static/images/tiers/contributor@96.png',
+        'EXPERT': 'https://www.kaggle.com/static/images/tiers/expert@96.png',
+        'MASTER': 'https://www.kaggle.com/static/images/tiers/master@96.png',
+        'GRANDMASTER': 'https://www.kaggle.com/static/images/tiers/grandmaster@96.png'
+    }
+    userAchieveUrl = userAchieveUrl_switcher.get(performanceTier)
 
-    return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate
+    return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate, userAchieveUrl
 
     # if 'occupation' in resp:
     #     occupation = resp[resp.find('occupation')+13:resp.find('organization')-3]
