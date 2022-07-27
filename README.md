@@ -1,9 +1,9 @@
 # Kaggle Profile Summary Card
 Have been searching for Kaggle profile card for long? Here is what you need to showcase your ML/DL achievements! 
 ## iFrame Usage
-Just replace the `YOURKAGGLEUSERNAME` to yours (i.e. mine will be https://hsiang-kaggle-card.vercel.app/api/basic?chienhsianghung
+Just replace the `YOURKAGGLEUSERNAME` to yours (i.e. mine will be [https://hsiang-kaggle-card.vercel.app/api/basic?chienhsianghung](https://kaggle-card.chienhsiang-hung.eu.org/api/basic?chienhsianghung))
 ```html
-<iframe  src="https://hsiang-kaggle-card.vercel.app/api/basic?YOURKAGGLEUSERNAME"  title="W3Schools Free Online Web Tutorials"  width="100%"  height="300"  style="border:none; min-width: 800px;"></iframe>
+<iframe src="https://kaggle-card.chienhsiang-hung.eu.org/api/basic?YOURKAGGLEUSERNAME" width="100%" height="300" style="border:none; min-width: 800px;"></iframe>
 ```
 Then Copy and Paste to your website `<body>` section.
 ### Example
