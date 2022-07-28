@@ -15,7 +15,7 @@ class handler(BaseHTTPRequestHandler):
 <!DOCTYPE html>
 <html style="max-width:540px; max-height:242.78px">
 <head>
-    <meta property="og:url" content="https://chienhsiang-hung.github.io/"/>
+    <meta property="og:url" content="https://chienhsiang-hung.github.io/kaggle-profile-summary-card/"/>
     <meta name="author" content="Hung, Chien-Hsiang"/>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
