@@ -1,6 +1,7 @@
 from http.server import BaseHTTPRequestHandler
 from util.crawler import kaggle_crawler
 import imgkit
+import shutil
 
 class handler(BaseHTTPRequestHandler):
 
@@ -59,7 +60,8 @@ class handler(BaseHTTPRequestHandler):
     '''
 
     img = imgkit.from_file(html, False)
+    shutil.copyfileobj(img, self.wfile)
 
-    self.wfile.write(img.read())
+    # self.wfile.write(img.read())
 
     return
