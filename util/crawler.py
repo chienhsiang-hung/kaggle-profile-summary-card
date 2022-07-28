@@ -1,6 +1,6 @@
 import requests, json
 
-def kaggle_crawler(username):
+def kaggle_crawler(self, username):
     url = 'https://www.kaggle.com/' + username
     resp = requests.get(url).text
     resp = resp[resp.find('ProfileContainerReact'):]
@@ -19,15 +19,9 @@ def kaggle_crawler(username):
     performanceTierCategory = push_json['performanceTierCategory'].split('_')[-1]
     userJoinDate = push_json['userJoinDate'][:10]
 
-    userAchieveUrl_switcher = {
-        'NOVICE': ['https://www.kaggle.com/static/images/tiers/novice@96.png', '#5ac995'],
-        'CONTRIBUTOR': ['https://www.kaggle.com/static/images/tiers/contributor@96.png', '#0bf'],
-        'EXPERT': ['https://www.kaggle.com/static/images/tiers/expert@96.png', '#95628f'],
-        'MASTER': ['https://www.kaggle.com/static/images/tiers/master@96.png', '#f96517'],
-        'GRANDMASTER': ['https://www.kaggle.com/static/images/tiers/grandmaster@96.png', '#dca917']
-    }
-    userAchieveUrl = userAchieveUrl_switcher.get(performanceTier)[0]
-    colorAchieve = userAchieveUrl_switcher.get(performanceTier)[1]
+
+    userAchieveUrl = self.userAchieveUrl_switcher.get(performanceTier)[0]
+    colorAchieve = self.userAchieveUrl_switcher.get(performanceTier)[1]
 
     return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier.capitalize(), performanceTierCategory.capitalize(), userJoinDate, userAchieveUrl, colorAchieve
 
