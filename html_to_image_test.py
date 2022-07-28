@@ -2,6 +2,7 @@ import imgkit
 from html2image import Html2Image
 from weasyprint import HTML
 
+
 html = '''
 <!DOCTYPE html>
 <html style="max-width:540px; max-height:242.78px">
@@ -50,8 +51,10 @@ html = '''
 
 if __name__ == '__main__':
     
-    hti = Html2Image()
-    hti.screenshot(html_str=html, save_as='html_to_image_test_html2img.png', size=(2000, 1000))
+    # hti = Html2Image()
+    # hti.screenshot(html_str=html, save_as='html_to_image_test_html2img.png', size=(2000, 1000))
     
+    html = HTML(string=html)
+    html.write_png('weasyprint.png')
 
     # imgkit.from_string(html, "html_to_image_test_imgkit.png")
