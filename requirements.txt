@@ -1,5 +1,4 @@
 requests
 imgkit
 wkhtmltopdf
-wkhtmltoimage
 pytest-shutil
