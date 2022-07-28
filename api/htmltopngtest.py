@@ -10,7 +10,7 @@ class handler(BaseHTTPRequestHandler):
     user = path.split('?')[1]
     userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate, userAchieveUrl, colorAchieve = kaggle_crawler(user)
     self.send_response(200)
-    self.send_header('Content-type', 'image/png')
+    self.send_header('Content-type', 'image/jpeg')
     self.end_headers()
     html = '''
 
@@ -60,7 +60,7 @@ class handler(BaseHTTPRequestHandler):
     '''
 
     options = {
-        'format': 'png',
+        'format': 'jpeg',
         'encoding': "UTF-8"
     }
     img = imgkit.from_file(html, False, options=options)
