@@ -60,7 +60,7 @@ class handler(BaseHTTPRequestHandler):
     '''
 
     options = {
-        'format': 'jpeg',
+        'format': 'jpg',
         'encoding': "UTF-8"
     }
     img = imgkit.from_file(html, False, options=options)
