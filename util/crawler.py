@@ -2,7 +2,13 @@ import requests, json
 
 def kaggle_crawler(username):
     url = 'https://www.kaggle.com/' + username
-    resp = requests.get(url).text
+    resp = requests.get(url)
+
+    # handle no user error
+    if resp.status_code == 404:
+        return None, None, None, None, None, None, None, None, None, None, False
+    
+    resp = resp.text
     resp = resp[resp.find('ProfileContainerReact'):]
     resp = resp[resp.find('Kaggle.State.push'):]
     
