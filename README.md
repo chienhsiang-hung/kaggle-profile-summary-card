@@ -5,6 +5,8 @@
 ![](https://img.shields.io/github/languages/count/chienhsiang-hung/kaggle-profile-summary-card)
 ![](https://img.shields.io/github/languages/top/chienhsiang-hung/kaggle-profile-summary-card)
 ![](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fchienhsiang-hung.github.io%2Fkaggle-profile-summary-card%2F)
+![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/github-pages)
+![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/Production)
 
 Have been searching for Kaggle profile card for long? Here is what you need to showcase your ML/DL achievements!
 ## iFrame Usage
