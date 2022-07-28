@@ -60,10 +60,10 @@ class handler(BaseHTTPRequestHandler):
     '''
 
     options = {
-        'format': 'jpg',
+        'format': 'jpeg',
         'encoding': "UTF-8"
     }
-    img = imgkit.from_file(html, False, options=options)
+    img = imgkit.from_string(html, False, options=options)
     shutil.copyfileobj(img, self.wfile)
 
     # self.wfile.write(img.read())
