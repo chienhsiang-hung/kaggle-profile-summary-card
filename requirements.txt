@@ -1,3 +1,3 @@
 requests
-imgkit
-pytest-shutil
+# imgkit
+# pytest-shutil
