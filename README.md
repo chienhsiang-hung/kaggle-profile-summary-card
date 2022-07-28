@@ -2,6 +2,8 @@
 ![](https://miro.medium.com/max/1400/1*Riggyr8nZMx-xxSp4AuE6A.png)
 
 ![](https://img.shields.io/github/license/chienhsiang-hung/kaggle-profile-summary-card)
+![](https://img.shields.io/github/languages/count/chienhsiang-hung/kaggle-profile-summary-card)
+![](https://img.shields.io/github/languages/top/chienhsiang-hung/kaggle-profile-summary-card)
 
 Have been searching for Kaggle profile card for long? Here is what you need to showcase your ML/DL achievements!
 ## iFrame Usage
