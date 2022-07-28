@@ -34,7 +34,7 @@ class handler(BaseHTTPRequestHandler):
   </div>
   <div class="row g-0">
     <p>no user found, please enter the right username</p>
-    <p>contact me <a href="https://chienhsiang-hung.github.io/" target="_blank">@Hsiang</a></p>
+    <p>contact the author <a href="https://chienhsiang-hung.github.io/" target="_blank">@Hsiang</a></p>
   </div>
 </div>
 </body>
