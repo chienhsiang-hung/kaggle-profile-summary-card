@@ -38,6 +38,33 @@
       .table-sm th, .table-success th {
         min-width: 16ch;
       }
+      
+      .tooltiptext {
+        visibility: hidden;
+        width: 150px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -60px;
+      }
+      .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+      }
+      .input-group:hover .tooltiptext {
+        visibility: visible;
+      }
     </style>    
   </head>
 
@@ -51,6 +78,7 @@
         <div class="row">
           <div class="col">
             <div class="input-group input-group-sm mb-3">
+              <span class="tooltiptext" style="border-radius: 6px;">Your Kaggle Name</span>
               <span class="input-group-text">@</span>
               <input type="text" class="form-control" value="chienhsianghung" id='user'>
               <button type="button" class="btn btn-outline-primary col-md-1" onclick="submit()">Submit</button>
