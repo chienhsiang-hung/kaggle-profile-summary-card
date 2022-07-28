@@ -19,7 +19,6 @@ def kaggle_crawler(self, username):
     performanceTierCategory = push_json['performanceTierCategory'].split('_')[-1]
     userJoinDate = push_json['userJoinDate'][:10]
 
-
     userAchieveUrl = self.userAchieveUrl_switcher.get(performanceTier)[0]
     colorAchieve = self.userAchieveUrl_switcher.get(performanceTier)[1]
 

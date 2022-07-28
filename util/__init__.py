@@ -1,5 +1,3 @@
-__version__ = '1.0.1'
-
 userAchieveUrl_switcher = {
     'NOVICE': ['https://www.kaggle.com/static/images/tiers/novice@96.png', '#5ac995'],
     'CONTRIBUTOR': ['https://www.kaggle.com/static/images/tiers/contributor@96.png', '#0bf'],
