@@ -1,5 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 from util.crawler import kaggle_crawler
+from util.datauri import img_to_datauri
 
 class handler(BaseHTTPRequestHandler):
 
@@ -7,6 +8,10 @@ class handler(BaseHTTPRequestHandler):
     path = self.path
     user = path.split('?')[1]
     userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate, userAchieveUrl, colorAchieve = kaggle_crawler(user)      
+
+    KaggleUrl = img_to_datauri('https://www.kaggle.com/static/images/site-logo.svg')
+    userAchieveUrl = img_to_datauri(userAchieveUrl)
+    userAvatarUrl = img_to_datauri(userAvatarUrl)
 
     self.send_response(200)
     self.send_header('Content-type', 'image/svg+xml')
@@ -21,7 +26,7 @@ class handler(BaseHTTPRequestHandler):
           <title>Layer 1</title>
           <rect fill="#ffffff" height="239" id="svg_4" rx="10" ry="10" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)" width="531" x="4" y="5"/>
           <rect fill="#e5e5e5" height="57" id="svg_6" rx="10" ry="10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" width="529" x="5" y="7"/>
-          <image height="41.46" id="svg_2" width="123" x="13" xlink:href="https://www.kaggle.com/static/images/site-logo.svg" y="15"/>
+          <image height="41.46" id="svg_2" width="123" x="13" xlink:href="data:img/png; base64,'''+KaggleUrl+'''" y="15"/>
           <line fill="none" id="svg_7" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)" x1="7" x2="534" y1="65" y2="66"/>
           <text fill="#000000" font-family="Sans-serif" font-size="17" id="svg_14" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="21" xml:space="preserve" y="95">no user found, please enter the right username</text>
           <text fill="#000000" font-family="Sans-serif" font-size="17" id="svg_1" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" style="cursor: move;" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="21" xml:space="preserve" y="125">contact the author</text>
