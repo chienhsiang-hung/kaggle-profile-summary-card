@@ -2,4 +2,3 @@ requests
 imgkit
 wkhtmltopdf
 pytest-shutil
-base64
