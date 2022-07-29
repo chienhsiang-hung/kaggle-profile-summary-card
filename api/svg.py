@@ -9,7 +9,7 @@ class handler(BaseHTTPRequestHandler):
     userAvatarUrl, displayName, country, city, occupation, organization, performanceTier, performanceTierCategory, userJoinDate, userAchieveUrl, colorAchieve = kaggle_crawler(user)      
 
     self.send_response(200)
-    self.send_header('Content-type', 'text/html')
+    self.send_header('Content-type', 'image/svg+xml')
     self.end_headers()
     
     # handle no user error
