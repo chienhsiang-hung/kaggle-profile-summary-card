@@ -19,3 +19,5 @@ Then Copy and Paste to your website `<body>` section.
 [Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/)
 ## Support
 It's always appreciated if you would like to [buy me a cofee](https://ko-fi.com/chienhsianghung) to support this API. Thank you :)
+
+<iframe src="https://kaggle-card.chienhsiang-hung.eu.org/api/basic?chienhsianghung" width="100%" height="300" style="border:none; min-width: 800px;"></iframe>
