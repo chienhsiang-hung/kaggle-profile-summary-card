@@ -21,7 +21,7 @@ Just replace the `YOURKAGGLEUSERNAME` to yours (i.e. mine will be [https://kaggl
 ```markdown
 ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?YOURKAGGLEUSERNAME)
 ```
-Then Copy and Paste to your Github **README.md** ([chienhsiang-hung/README.md at main · chienhsiang-hung/chienhsiang-hung (github.com)](https://github.com/chienhsiang-hung/chienhsiang-hung/blob/main/README.md))
+Then Copy and Paste to your Github README.md like [mine](https://github.com/chienhsiang-hung/chienhsiang-hung/blob/main/README.md)
 
 ## iFrame/ Object/ Embed Usage
 Just replace the `YOURKAGGLEUSERNAME` to yours (i.e. mine will be [https://kaggle-card.chienhsiang-hung.eu.org/api/basic?chienhsianghung](https://kaggle-card.chienhsiang-hung.eu.org/api/basic?chienhsianghung))
