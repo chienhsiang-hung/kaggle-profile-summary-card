@@ -43,10 +43,10 @@ class handler(BaseHTTPRequestHandler):
           <title>Layer 1</title>
           <rect fill="#ffffff" height="239" id="svg_4" rx="10" ry="10" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)" width="531" x="4" y="5"/>
           <rect fill="#e5e5e5" height="57" id="svg_6" rx="10" ry="10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" width="529" x="5" y="7"/>
-          <image height="104" id="svg_3" transform="matrix(1 0 0 1 0 0)" width="104" x="422" xlink:href="data:img/png; base64,'''+userAchieveUrl+'''" y="78"/>
+          <image height="104" id="svg_3" transform="matrix(1 0 0 1 0 0)" width="104" x="422" xlink:href="data:image/png; base64,'''+userAchieveUrl+'''" y="78"/>
           <image height="41.46" id="svg_2" width="123" x="13" xlink:href="'''+util.kaggle_svg_dataurl+'''" y="15"/>
           <line fill="none" id="svg_7" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)" x1="7" x2="534" y1="65" y2="66"/>
-          <image height="171" id="svg_10" transform="matrix(1 0 0 1 0 0)" width="171" x="6" xlink:href="data:img/png; base64,'''+userAvatarUrl+'''" y="71"/>
+          <image height="171" id="svg_10" transform="matrix(1 0 0 1 0 0)" width="171" x="6" xlink:href="data:image/png; base64,'''+userAvatarUrl+'''" y="71"/>
           <text fill="#000000" font-family="Sans-serif" font-size="19" font-weight="bold" id="svg_12" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="189.67" xml:space="preserve" y="106">'''+displayName+'''</text>
           <text fill="#333333" font-family="Sans-serif" font-size="17" id="svg_14" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="189" xml:space="preserve" y="137">'''+occupation+''' at '''+organization+'''</text>
           <text fill="#333333" font-family="Sans-serif" font-size="17" id="svg_15" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" x="189.67" xml:space="preserve" y="178">'''+city+''', '''+country+'''</text>
