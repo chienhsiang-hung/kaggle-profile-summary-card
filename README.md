@@ -1,4 +1,5 @@
 
+
 # Kaggle Profile Summary Card
 | SVG | iFrame/ Object/ Embed |
 |--|--|
@@ -16,12 +17,18 @@ Have been searching for Kaggle profile card for long? Here is what you need to s
 ### Example
 [Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/)
 
-## SVG served in Markdown
+## SVG served in Markdown and HTML
+### Markdown
 Just replace the `YOURKAGGLEUSERNAME` to yours (i.e. mine will be [https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung))
 ```markdown
 ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?YOURKAGGLEUSERNAME)
 ```
 Then Copy and Paste to your Github README.md like [mine](https://github.com/chienhsiang-hung/chienhsiang-hung/blob/main/README.md)
+### HTML 
+```html
+<img src="https://kaggle-card.chienhsiang-hung.eu.org/api/svg?YOURKAGGLEUSERNAME" alt="Hsiang's Kaggle Summary Card">
+```
+Then Copy and Paste to your website `<body>` section.
 
 ## iFrame/ Object/ Embed Usage
 Just replace the `YOURKAGGLEUSERNAME` to yours (i.e. mine will be [https://kaggle-card.chienhsiang-hung.eu.org/api/basic?chienhsianghung](https://kaggle-card.chienhsiang-hung.eu.org/api/basic?chienhsianghung))
