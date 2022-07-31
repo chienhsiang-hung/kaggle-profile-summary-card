@@ -65,10 +65,32 @@
       .input-group:hover .tooltiptext {
         visibility: visible;
       }
+      .input-group-svg:hover .tooltiptext {
+        visibility: visible;
+      }
+      .input-group-iframe:hover .tooltiptext {
+        visibility: visible;
+      }
     </style>    
   </head>
 
-  <body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kaggle Card</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://chienhsiang-hung.github.io/">Author</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/chienhsiang-hung/kaggle-profile-summary-card" target="_blank">Docs</a>
+            </li>
+        </div>
+      </div>
+    </nav>
 
     <!-- Begin page content -->
     <main class="flex-shrink-0">
@@ -89,16 +111,18 @@
         <div class="row">
           <div class="col">
             <div class="input-group input-group-sm mb-3">
-              <input type="text" class="form-control" value="SVG copy:" disabled>
+              <input type="text" class="form-control" value="SVG" disabled>
             </div>
-            <div class="input-group input-group-sm mb-3">
+            <div class="input-group input-group-svg input-group-sm mb-3">
+              <span class="tooltiptext" style="border-radius: 6px;">Copy Me</span>
               <input id="my-card-svg-copy" type="text" class="form-control" value="![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung)">
             </div>
             <img id="my-card-svg" src="https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung" alt="Hsiang's Kaggle Summary Card" class='img-fluid' style="max-height:250px;">
             <div class="input-group input-group-sm mb-3">
-              <input type="text" class="form-control" value="iFrame/ Object/ Embed copy:" disabled>
+              <input type="text" class="form-control" value="iFrame/ Object/ Embed" disabled>
             </div>
-            <div class="input-group input-group-sm mb-3">
+            <div class="input-group input-group-iframe input-group-sm mb-3">
+              <span class="tooltiptext" style="border-radius: 6px;">Copy Me</span>
               <input id="my-card-html-copy" type="text" class="form-control" value='<iframe src="https://kaggle-card.chienhsiang-hung.eu.org/api/basic?chienhsianghung" width="100%" height="300" style="border:none; min-width: 800px;"></iframe>''>
             </div>
             <iframe id='my-card-html' src="https://kaggle-card.chienhsiang-hung.eu.org/api/basic?chienhsianghung" width="100%" style="border:none; min-height:250px;"></iframe>
