@@ -1,5 +1,3 @@
-
-
 # Kaggle Profile Summary Card
 | SVG | iFrame/ Object/ Embed |
 |--|--|
@@ -13,6 +11,7 @@
 ![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/Production)
 ![](https://img.shields.io/github/repo-size/chienhsiang-hung/kaggle-profile-summary-card)
 ![](https://img.shields.io/github/v/release/chienhsiang-hung/kaggle-profile-summary-card)
+![](https://img.shields.io/github/workflow/status/chienhsiang-hung/kaggle-profile-summary-card/Lint%20Code%20Base)
 
 Have been searching for Kaggle profile card for long? Here is what you need to showcase your ML/DL achievements!
 
