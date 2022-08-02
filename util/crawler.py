@@ -61,7 +61,20 @@ def summary_crawler(username):
     discussionsSummaryAchieveUrl, discussionscolorAchieve = userAchieveUrl_switcher.get(discussionsSummary_tier)
     datasetsAchieveUrl, datasetscolorAchieve = userAchieveUrl_switcher.get(datasetsSummary_tier)
 
-    return
+    followers = push_json['followers']['count'] if 'count' in push_json['followers'] else 0
+    following = push_json['following']['count'] if 'count' in push_json['following'] else 0
+
+    userJoinDate = push_json['userJoinDate'][:10]
+
+    return (
+        userAvatarUrl, displayName,
+        competitionsAchieveUrl, competitionscolorAchieve,
+        scriptsSummaryAchieveUrl, scriptscolorAchieve,
+        discussionsSummaryAchieveUrl, discussionscolorAchieve,
+        datasetsAchieveUrl, datasetscolorAchieve,
+        followers, following, userJoinDate
+    )
 
 if __name__ == '__main__':
     print( kaggle_crawler('chienhsianghung') )
+    print( summary_crawler('chienhsianghung') )
