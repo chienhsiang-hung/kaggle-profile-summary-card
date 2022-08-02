@@ -16,5 +16,8 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'text/html')
         self.end_headers()
         
-        # self.wfile.write(os.environ.get('MONGODB_URI').encode())
+        self.wfile.write('Succeseed.'.encode())
+
+        from util import mongodb
+        self.wfile.write(str(mongodb.mydata).encode())
         return
