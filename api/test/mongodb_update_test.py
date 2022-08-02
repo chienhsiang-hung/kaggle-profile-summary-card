@@ -12,5 +12,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'text/html')
         self.end_headers()
         
-        self.wfile.write(os.environ.get('MONGODB_URI').encode())
+        # self.wfile.write(os.environ.get('MONGODB_URI').encode())
         return
