@@ -1,6 +1,7 @@
 import pymongo
 import os
 from http.server import BaseHTTPRequestHandler
+from util import mongodb
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -16,5 +17,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'text/html')
         self.end_headers()
         
-        # self.wfile.write(os.environ.get('MONGODB_URI').encode())
+        self.wfile.write(mongodb.mydata.encode())
         return
