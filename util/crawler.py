@@ -56,6 +56,11 @@ def summary_crawler(username):
     discussionsSummary_tier = push_json['discussionsSummary']['tier'] if 'tier' in push_json['discussionsSummary'] else 'NOVICE'
     datasetsSummary_tier = push_json['datasetsSummary']['tier'] if 'tier' in push_json['datasetsSummary'] else 'NOVICE'
 
+    competitionsAchieveUrl, competitionscolorAchieve = userAchieveUrl_switcher.get(competitionsSummary_tier)
+    scriptsSummaryAchieveUrl, scriptscolorAchieve = userAchieveUrl_switcher.get(scriptsSummary_tier)
+    discussionsSummaryAchieveUrl, discussionscolorAchieve = userAchieveUrl_switcher.get(discussionsSummary_tier)
+    datasetsAchieveUrl, datasetscolorAchieve = userAchieveUrl_switcher.get(datasetsSummary_tier)
+
     return
 
 if __name__ == '__main__':
