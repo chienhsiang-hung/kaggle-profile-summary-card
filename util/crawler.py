@@ -38,6 +38,17 @@ def kaggle_crawler(username):
 
     return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier.capitalize(), performanceTierCategory.capitalize(), userJoinDate, userAchieveUrl, colorAchieve
 
+def summary_crawler(username):
+    url = 'https://www.kaggle.com/' + username
+    resp = requests.get(url)
+
+    resp = resp.text
+    resp = resp[resp.find('ProfileContainerReact'):]
+    resp = resp[resp.find('Kaggle.State.push'):]
+    
+    push_json = resp[18: resp.find('performance &&') -2 ]
+    push_json = json.loads(push_json)
+    return
 
 if __name__ == '__main__':
     print( kaggle_crawler('chienhsianghung') )
