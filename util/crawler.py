@@ -38,19 +38,48 @@ def kaggle_crawler(username):
 
     return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier.capitalize(), performanceTierCategory.capitalize(), userJoinDate, userAchieveUrl, colorAchieve
 
-    # if 'occupation' in resp:
-    #     occupation = resp[resp.find('occupation')+13:resp.find('organization')-3]
-    # if 'organization' in resp:
-    #     organization = resp[resp.find('organization')+15:resp.find('bio')-3]
-    # performanceTier = 'NOVICE'
-    # if 'performanceTier' in resp:
-    #     performanceTier = resp[resp.find('performanceTier')+18:resp.find('performanceTierCategory')-3]
-    # performanceTierCategory = resp[resp.find('performanceTierCategory')+26:resp.find('activePaneTier')-3]
-    # if performanceTierCategory:
-    #     if '_' in performanceTierCategory:
-    #         performanceTierCategory = performanceTierCategory.split('_')[-1]
+def summary_crawler(username):
+    url = 'https://www.kaggle.com/' + username
+    resp = requests.get(url)
 
-    # print(displayName, country, city, occupation, organization, performanceTier, performanceTierCategory)
+    # handle no user error
+    if resp.status_code == 404:
+        return [False] * 13
+
+    resp = resp.text
+    resp = resp[resp.find('ProfileContainerReact'):]
+    resp = resp[resp.find('Kaggle.State.push'):]
+    
+    push_json = resp[18: resp.find('performance &&') -2 ]
+    push_json = json.loads(push_json)
+
+    userAvatarUrl = 'https://storage.googleapis.com/kaggle-avatars/images/default-thumb.png' if 'userAvatarUrl' not in push_json else push_json['userAvatarUrl']
+    displayName = push_json['displayName']
+    competitionsSummary_tier = push_json['competitionsSummary']['tier'] if 'tier' in push_json['competitionsSummary'] else 'NOVICE'
+    scriptsSummary_tier = push_json['scriptsSummary']['tier'] if 'tier' in push_json['scriptsSummary'] else 'NOVICE'
+    discussionsSummary_tier = push_json['discussionsSummary']['tier'] if 'tier' in push_json['discussionsSummary'] else 'NOVICE'
+    datasetsSummary_tier = push_json['datasetsSummary']['tier'] if 'tier' in push_json['datasetsSummary'] else 'NOVICE'
+
+    competitionsAchieveUrl, competitionscolorAchieve = userAchieveUrl_switcher.get(competitionsSummary_tier)
+    scriptsSummaryAchieveUrl, scriptscolorAchieve = userAchieveUrl_switcher.get(scriptsSummary_tier)
+    discussionsSummaryAchieveUrl, discussionscolorAchieve = userAchieveUrl_switcher.get(discussionsSummary_tier)
+    datasetsAchieveUrl, datasetscolorAchieve = userAchieveUrl_switcher.get(datasetsSummary_tier)
+
+    followers = push_json['followers']['count'] if 'count' in push_json['followers'] else 0
+    following = push_json['following']['count'] if 'count' in push_json['following'] else 0
+
+    userJoinDate = push_json['userJoinDate'][:10]
+
+    return (
+        userAvatarUrl, displayName,
+        competitionsAchieveUrl, competitionscolorAchieve,
+        scriptsSummaryAchieveUrl, scriptscolorAchieve,
+        discussionsSummaryAchieveUrl, discussionscolorAchieve,
+        datasetsAchieveUrl, datasetscolorAchieve,
+        followers, following, userJoinDate
+    )
 
 if __name__ == '__main__':
     print( kaggle_crawler('chienhsianghung') )
+    print( summary_crawler('chienhsianghung') )
+    print( summary_crawler('chienhsianghun') )
