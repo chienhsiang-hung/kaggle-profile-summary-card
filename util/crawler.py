@@ -48,6 +48,14 @@ def summary_crawler(username):
     
     push_json = resp[18: resp.find('performance &&') -2 ]
     push_json = json.loads(push_json)
+
+    userAvatarUrl = 'https://storage.googleapis.com/kaggle-avatars/images/default-thumb.png' if 'userAvatarUrl' not in push_json else push_json['userAvatarUrl']
+    displayName = push_json['displayName']
+    competitionsSummary_tier = push_json['competitionsSummary']['tier'] if 'tier' in push_json['competitionsSummary'] else 'NOVICE'
+    scriptsSummary_tier = push_json['scriptsSummary']['tier'] if 'tier' in push_json['scriptsSummary'] else 'NOVICE'
+    discussionsSummary_tier = push_json['discussionsSummary']['tier'] if 'tier' in push_json['discussionsSummary'] else 'NOVICE'
+    datasetsSummary_tier = push_json['datasetsSummary']['tier'] if 'tier' in push_json['datasetsSummary'] else 'NOVICE'
+
     return
 
 if __name__ == '__main__':
