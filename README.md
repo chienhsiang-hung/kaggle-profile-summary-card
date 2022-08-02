@@ -1,8 +1,4 @@
 # Kaggle Profile Summary Card
-| SVG | iFrame/ Object/ Embed |
-|--|--|
-| ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung) | ![](https://miro.medium.com/max/1400/1*Riggyr8nZMx-xxSp4AuE6A.png) |
-
 ![](https://img.shields.io/github/license/chienhsiang-hung/kaggle-profile-summary-card)
 ![](https://img.shields.io/github/languages/count/chienhsiang-hung/kaggle-profile-summary-card)
 ![](https://img.shields.io/github/languages/top/chienhsiang-hung/kaggle-profile-summary-card)
@@ -14,6 +10,12 @@
 ![](https://img.shields.io/github/v/release/chienhsiang-hung/kaggle-profile-summary-card?include_prereleases)
 ![](https://img.shields.io/github/discussions/chienhsiang-hung/kaggle-profile-summary-card)
 ![](https://img.shields.io/github/checks-status/chienhsiang-hung/kaggle-profile-summary-card/main)
+
+| SVG | SVG All-round | iFrame/ Object/ Embed |
+|--|--|--|
+| ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung) | ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?chienhsianghung) | ![](https://miro.medium.com/max/1400/1*Riggyr8nZMx-xxSp4AuE6A.png) |
+
+
 
 Have been searching for Kaggle profile card for long? Here is what you need to showcase your ML/DL achievements!
 
