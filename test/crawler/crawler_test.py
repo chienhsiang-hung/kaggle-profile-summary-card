@@ -17,9 +17,9 @@ def kaggle_crawler(username):
         return None, None, None, None, None, None, None, None, None, None, False
     
     resp = resp.text
-    # # test
-    # with open(f'test/crawler/{username}_resp.txt', 'w') as f:
-    #     f.write(resp)
+    # test
+    with open(f'test/crawler/{username}_resp.txt', 'w') as f:
+        f.write(resp)
     resp = resp[resp.find('ProfileContainerReact'):]
     resp = resp[resp.find('Kaggle.State.push'):]
     

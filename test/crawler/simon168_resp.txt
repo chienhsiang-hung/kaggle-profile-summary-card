@@ -11,9 +11,9 @@
   <meta name="turbolinks-cache-control" content="no-cache" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
   <meta name="theme-color" content="#008ABC" />
-  <script nonce="cr83iBeSAdxJpKdYsjvxew==" type="text/javascript">
-    window["pageRequestStartTime"] = 1659442898144;
-    window["pageRequestEndTime"] = 1659442898193;
+  <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" type="text/javascript">
+    window["pageRequestStartTime"] = 1659443257411;
+    window["pageRequestEndTime"] = 1659443257799;
     window["initialPageLoadStartTime"] = new Date().getTime();
   </script>
   <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
@@ -30,7 +30,7 @@
     rel="stylesheet" media="print" id="async-google-font-1" />
   <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet" media="print" id="async-google-font-2" />
-  <script nonce="cr83iBeSAdxJpKdYsjvxew==" type="text/javascript">
+  <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" type="text/javascript">
     const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
     styleSheetIds.forEach(function (id) {
       document.getElementById(id).addEventListener("load", function() {
@@ -44,7 +44,7 @@
   
     
  
-      <script nonce="cr83iBeSAdxJpKdYsjvxew==">
+      <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==">
         try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
         d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
         y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
@@ -52,7 +52,7 @@
         (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
         })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
     </script>
-    <script nonce="cr83iBeSAdxJpKdYsjvxew==">
+    <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==">
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
@@ -63,7 +63,7 @@
             'content_group1': 'Users'
         });
     </script>
-    <script nonce="cr83iBeSAdxJpKdYsjvxew==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+    <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
 
   
     
@@ -87,13 +87,13 @@
   
     
     
-<script nonce="cr83iBeSAdxJpKdYsjvxew==" type="text/javascript">
+<script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" type="text/javascript">
     var Kaggle = window.Kaggle || {};
 
     Kaggle.Current = {
-        antiForgeryToken: 'CfDJ8J3M_yAX7KFLocPnRStQF55AQuFkVPwHBHB0eICWuSmD99FOQB6I1YkZTlOhZkU0zMp0i0OGIjzLgQAKluhe8Op3YDI388gB7cn7C80c9BxXsg',
+        antiForgeryToken: 'CfDJ8J3M_yAX7KFLocPnRStQF552JlFR3iCUqVJQ3nRuv4xs8s68-2pk3Ejh0Sy3GDLPsecgyrut7DCcWAn-s2HWVe4fPzO09xL4Kw6A7gxhc5FZ5Q',
         isAnonymous: true,
-        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NDM3OTgsIlVzZXJJZCI6MH0.bNy45hl5aJ9RrnPuIa3slU3O4kDTJ3HNpBVc-pxKFCw',
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NDQxNTcsIlVzZXJJZCI6MH0.1bkQ68UWmhPaweWRJXqXtjXiC25ftdlmIhvBs6f-vek',
         analyticsTokenExpiry: 15,
         
         
@@ -123,21 +123,21 @@
 
     
 
-<script nonce="cr83iBeSAdxJpKdYsjvxew==" type="text/javascript">
+<script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" type="text/javascript">
     var Kaggle = window.Kaggle || {};
     Kaggle.PageMessages = [];
 </script>
 
 
 
-    <script nonce="cr83iBeSAdxJpKdYsjvxew==">window['useKaggleAnalytics'] = true;</script>
+    <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==">window['useKaggleAnalytics'] = true;</script>
 
-  <script id="gapi-target" nonce="cr83iBeSAdxJpKdYsjvxew==" src="https://apis.google.com/js/api.js" defer
+  <script id="gapi-target" nonce="CfpYhqk/k8YJc0Ha1AOpyw==" src="https://apis.google.com/js/api.js" defer
     async></script>
-  <script nonce="cr83iBeSAdxJpKdYsjvxew==" src="/static/assets/runtime.js?v=32f1af161126bef1a70e" data-turbolinks-track="reload"></script>
-  <script nonce="cr83iBeSAdxJpKdYsjvxew==" src="/static/assets/vendor.js?v=1abae0bc5a9d72e7b94f" data-turbolinks-track="reload"></script>
-  <script nonce="cr83iBeSAdxJpKdYsjvxew==" src="/static/assets/app.js?v=793ffc76fba855ad0225" data-turbolinks-track="reload"></script>
-    <script nonce="cr83iBeSAdxJpKdYsjvxew==" type="text/javascript">
+  <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" src="/static/assets/runtime.js?v=32f1af161126bef1a70e" data-turbolinks-track="reload"></script>
+  <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" src="/static/assets/vendor.js?v=1abae0bc5a9d72e7b94f" data-turbolinks-track="reload"></script>
+  <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" src="/static/assets/app.js?v=793ffc76fba855ad0225" data-turbolinks-track="reload"></script>
+    <script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" type="text/javascript">
       window.kaggleStackdriverConfig = {
         key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
         projectId: 'kaggle-161607',
@@ -158,11 +158,11 @@
 
 
 <div id="site-container"></div>
-<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="cr83iBeSAdxJpKdYsjvxew==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="CfpYhqk/k8YJc0Ha1AOpyw==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
 <div id="site-body" class="hide">
     
-<div data-component-name="ProfileContainerReact" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="cr83iBeSAdxJpKdYsjvxew==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"userId":6294068,"displayName":"Simon168","country":"Taiwan","city":"Taipei","userLastActive":"2022-06-09T03:33:13.623Z","userJoinDate":"2020-12-02T05:37:36.107Z","performanceTierCategory":"ACHIEVEMENT_SUMMARY_TYPE_COMPETITIONS","userUrl":"/simon168","userAvatarUrl":"https://storage.googleapis.com/kaggle-avatars/images/6294068-gr.jpg","canCreateDatasets":true,"userName":"simon168","activePane":"PROFILE_AREA_HOME","competitionsSummary":{"rankPercentage":0.9555576,"rankOutOf":188221,"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_COMPETITIONS"},"scriptsSummary":{"rankPercentage":0.15882148,"rankOutOf":230120,"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_NOTEBOOKS"},"discussionsSummary":{"rankPercentage":0.1011889,"rankOutOf":297503,"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_DISCUSSION"},"datasetsSummary":{"rankPercentage":0.13197872,"rankOutOf":67276,"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_DATASETS"},"followers":{"type":"FOLLOWERS_LIST_TYPE_FOLLOWING"},"following":{"type":"FOLLOWERS_LIST_TYPE_FOLLOWING","count":4,"list":[{"displayName":"Andrada Olteanu","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3564129-kg.JPG","userId":3564129,"userName":"andradaolteanu","userUrl":"/andradaolteanu","tier":"GRANDMASTER"},{"displayName":"alan chen","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3154572-kg.jpg","userId":3154572,"userName":"alanchen1115","userUrl":"/alanchen1115","tier":"EXPERT"},{"displayName":"Chien-Hsiang Hung","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6294032-kg.png","userId":6294032,"userName":"chienhsianghung","userUrl":"/chienhsianghung","tier":"EXPERT"},{"displayName":"rapidlight","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":6005173,"userName":"rapidlight","userUrl":"/rapidlight"}]},"canSeeCallToAction":true,"canSeeNotifications":true,"canSeeAtMentions":true,"userAllowsUserMessages":true,"@wf": "Users.ProfileDtoWireFormat3"});performance && performance.mark && performance.mark("ProfileContainerReact.componentCouldBootstrap");</script>
-<script nonce="cr83iBeSAdxJpKdYsjvxew==" type="text/x-mathjax-config">
+<div data-component-name="ProfileContainerReact" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="CfpYhqk/k8YJc0Ha1AOpyw==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"userId":6294068,"displayName":"Simon168","country":"Taiwan","city":"Taipei","userLastActive":"2022-06-09T03:33:13.623Z","userJoinDate":"2020-12-02T05:37:36.107Z","performanceTierCategory":"ACHIEVEMENT_SUMMARY_TYPE_COMPETITIONS","userUrl":"/simon168","userAvatarUrl":"https://storage.googleapis.com/kaggle-avatars/images/6294068-gr.jpg","canCreateDatasets":true,"userName":"simon168","activePane":"PROFILE_AREA_HOME","competitionsSummary":{"rankPercentage":0.9555576,"rankOutOf":188221,"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_COMPETITIONS"},"scriptsSummary":{"rankPercentage":0.1587863,"rankOutOf":230171,"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_NOTEBOOKS"},"discussionsSummary":{"rankPercentage":0.10116373,"rankOutOf":297577,"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_DISCUSSION"},"datasetsSummary":{"rankPercentage":0.13193753,"rankOutOf":67297,"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_DATASETS"},"followers":{"type":"FOLLOWERS_LIST_TYPE_FOLLOWING"},"following":{"type":"FOLLOWERS_LIST_TYPE_FOLLOWING","count":4,"list":[{"displayName":"Andrada Olteanu","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3564129-kg.JPG","userId":3564129,"userName":"andradaolteanu","userUrl":"/andradaolteanu","tier":"GRANDMASTER"},{"displayName":"alan chen","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3154572-kg.jpg","userId":3154572,"userName":"alanchen1115","userUrl":"/alanchen1115","tier":"EXPERT"},{"displayName":"Chien-Hsiang Hung","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6294032-kg.png","userId":6294032,"userName":"chienhsianghung","userUrl":"/chienhsianghung","tier":"EXPERT"},{"displayName":"rapidlight","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":6005173,"userName":"rapidlight","userUrl":"/rapidlight"}]},"canSeeCallToAction":true,"canSeeNotifications":true,"canSeeAtMentions":true,"userAllowsUserMessages":true,"@wf": "Users.ProfileDtoWireFormat3"});performance && performance.mark && performance.mark("ProfileContainerReact.componentCouldBootstrap");</script>
+<script nonce="CfpYhqk/k8YJc0Ha1AOpyw==" type="text/x-mathjax-config">
     MathJax.Hub.Config({
     "HTML-CSS": {
     preferredFont: "TeX",
@@ -195,7 +195,7 @@
     extensions: [],
     });
 </script>
-<script type="text/javascript" nonce="cr83iBeSAdxJpKdYsjvxew==">
+<script type="text/javascript" nonce="CfpYhqk/k8YJc0Ha1AOpyw==">
   window.addEventListener("DOMContentLoaded", () => {
     const head = document.getElementsByTagName("head")[0];
     const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
