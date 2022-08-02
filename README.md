@@ -6,7 +6,7 @@
 ![](https://img.shields.io/github/license/chienhsiang-hung/kaggle-profile-summary-card)
 ![](https://img.shields.io/github/languages/count/chienhsiang-hung/kaggle-profile-summary-card)
 ![](https://img.shields.io/github/languages/top/chienhsiang-hung/kaggle-profile-summary-card)
-![](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fchienhsiang-hung.github.io%2Fkaggle-profile-summary-card%2F)
+![](https://img.shields.io/website?url=https%3A%2F%2Fchienhsiang-hung.github.io%2Fkaggle-profile-summary-card%2F)
 ![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/github-pages)
 ![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/Production)
 ![](https://img.shields.io/github/languages/code-size/chienhsiang-hung/kaggle-profile-summary-card)
