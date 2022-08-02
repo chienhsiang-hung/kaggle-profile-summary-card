@@ -17,6 +17,9 @@ def kaggle_crawler(username):
         return None, None, None, None, None, None, None, None, None, None, False
     
     resp = resp.text
+    # # test
+    # with open(f'test/crawler/{username}_resp.txt', 'w') as f:
+    #     f.write(resp)
     resp = resp[resp.find('ProfileContainerReact'):]
     resp = resp[resp.find('Kaggle.State.push'):]
     
@@ -38,19 +41,7 @@ def kaggle_crawler(username):
 
     return userAvatarUrl, displayName, country, city, occupation, organization, performanceTier.capitalize(), performanceTierCategory.capitalize(), userJoinDate, userAchieveUrl, colorAchieve
 
-    # if 'occupation' in resp:
-    #     occupation = resp[resp.find('occupation')+13:resp.find('organization')-3]
-    # if 'organization' in resp:
-    #     organization = resp[resp.find('organization')+15:resp.find('bio')-3]
-    # performanceTier = 'NOVICE'
-    # if 'performanceTier' in resp:
-    #     performanceTier = resp[resp.find('performanceTier')+18:resp.find('performanceTierCategory')-3]
-    # performanceTierCategory = resp[resp.find('performanceTierCategory')+26:resp.find('activePaneTier')-3]
-    # if performanceTierCategory:
-    #     if '_' in performanceTierCategory:
-    #         performanceTierCategory = performanceTierCategory.split('_')[-1]
-
-    # print(displayName, country, city, occupation, organization, performanceTier, performanceTierCategory)
 
 if __name__ == '__main__':
     print( kaggle_crawler('chienhsianghung') )
+    print( kaggle_crawler('simon168') )

@@ -1,0 +1,220 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Chien-Hsiang Hung | Expert | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="# Kaggle Profile Summary Card&#xA;![](https://img.shields.io/github/license/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/languages/count/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/languages/top/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/website?url=https%3A%2F%2Fchienhsiang-hung.github.io%2Fkaggle-profile-summary-card%2F)&#xA;![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/github-pages)&#xA;![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/Production)&#xA;![](https://img.shields.io/github/languages/code-size/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/repo-size/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/v/release/chienhsiang-hung/kaggle-profile-summary-card?include_prereleases)&#xA;![](https://img.shields.io/github/discussions/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/checks-status/chienhsiang-hung/kaggle-profile-summary-card/main)&#xA;&#xA;![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung)&#xA;&#xA;Have been searching for Kaggle profile card for long? Here is what you need to showcase your ML/DL achievements!&#xA;&#xA;### Example&#xA;[Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/)" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="jEYrW3mlrP6w6irQ4mcQrg==" type="text/javascript">
+    window["pageRequestStartTime"] = 1659442897820;
+    window["pageRequestEndTime"] = 1659442897886;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="jEYrW3mlrP6w6irQ4mcQrg==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=75916b9cccfe514b1d11" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=b18ee2b25686cabf9bac" />
+  
+    
+ 
+      <script nonce="jEYrW3mlrP6w6irQ4mcQrg==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="jEYrW3mlrP6w6irQ4mcQrg==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Users'
+        });
+    </script>
+    <script nonce="jEYrW3mlrP6w6irQ4mcQrg==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/chienhsianghung/competitions" />
+    <meta property="og:title" content="Chien-Hsiang Hung | Expert" />
+    <meta property="og:description" content="# Kaggle Profile Summary Card&#xA;![](https://img.shields.io/github/license/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/languages/count/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/languages/top/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/website?url=https%3A%2F%2Fchienhsiang-hung.github.io%2Fkaggle-profile-summary-card%2F)&#xA;![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/github-pages)&#xA;![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/Production)&#xA;![](https://img.shields.io/github/languages/code-size/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/repo-size/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/v/release/chienhsiang-hung/kaggle-profile-summary-card?include_prereleases)&#xA;![](https://img.shields.io/github/discussions/chienhsiang-hung/kaggle-profile-summary-card)&#xA;![](https://img.shields.io/github/checks-status/chienhsiang-hung/kaggle-profile-summary-card/main)&#xA;&#xA;![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung)&#xA;&#xA;Have been searching for Kaggle profile card for long? Here is what you need to showcase your ML/DL achievements!&#xA;&#xA;### Example&#xA;[Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/)" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:username" content="chienhsianghung" />
+    <meta name="twitter:card" content="summary" /> 
+    <meta name="twitter:image" content="https://www.kaggle.com/static/images/tiers/Expert@192.png" />
+    <meta name="twitter:image:alt" content="Expert" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+
+  
+    
+
+  
+    
+    
+<script nonce="jEYrW3mlrP6w6irQ4mcQrg==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8J3M_yAX7KFLocPnRStQF54cS-Lm6W39YJN8v0JqwB5buIBgUlEW1uP1W0qSybpmVORWh1CFN9LihDEdLtC0BloMiMLz27eLb_EPE6duuJxGPA',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTk0NDM3OTcsIlVzZXJJZCI6MH0.zPKi3Vo1DhLcc-ZgiuEjsricbDqfAlFDOmXbxt90PHU',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    const decodeUserProperty = function (escapedUserProperty) {
+        escapedUserProperty = escapedUserProperty || "";
+        try {
+            const textVersion = new DOMParser().parseFromString(escapedUserProperty, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserProperty;
+    }
+    Kaggle.Current.userDisplayName = decodeUserProperty(Kaggle.Current.userDisplayNameEscaped);
+    Kaggle.Current.userEmail = decodeUserProperty(Kaggle.Current.userEmailEscaped); 
+</script>
+
+    
+
+<script nonce="jEYrW3mlrP6w6irQ4mcQrg==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="jEYrW3mlrP6w6irQ4mcQrg==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="jEYrW3mlrP6w6irQ4mcQrg==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="jEYrW3mlrP6w6irQ4mcQrg==" src="/static/assets/runtime.js?v=32f1af161126bef1a70e" data-turbolinks-track="reload"></script>
+  <script nonce="jEYrW3mlrP6w6irQ4mcQrg==" src="/static/assets/vendor.js?v=1abae0bc5a9d72e7b94f" data-turbolinks-track="reload"></script>
+  <script nonce="jEYrW3mlrP6w6irQ4mcQrg==" src="/static/assets/app.js?v=793ffc76fba855ad0225" data-turbolinks-track="reload"></script>
+    <script nonce="jEYrW3mlrP6w6irQ4mcQrg==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="jEYrW3mlrP6w6irQ4mcQrg==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+<div data-component-name="ProfileContainerReact" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="jEYrW3mlrP6w6irQ4mcQrg==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"userId":6294032,"displayName":"Chien-Hsiang Hung","country":"Taiwan","city":"Taipei","gitHubUserName":"chienhsiang-hung","linkedInUrl":"https://www.linkedin.com/in/chien-hsiang-hung/","websiteUrl":"https://chienhsiang-hung.github.io/","occupation":"IT Manager, DDI","organization":"WAM","bio":"# Kaggle Profile Summary Card\n![](https://img.shields.io/github/license/chienhsiang-hung/kaggle-profile-summary-card)\n![](https://img.shields.io/github/languages/count/chienhsiang-hung/kaggle-profile-summary-card)\n![](https://img.shields.io/github/languages/top/chienhsiang-hung/kaggle-profile-summary-card)\n![](https://img.shields.io/website?url=https%3A%2F%2Fchienhsiang-hung.github.io%2Fkaggle-profile-summary-card%2F)\n![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/github-pages)\n![](https://img.shields.io/github/deployments/chienhsiang-hung/kaggle-profile-summary-card/Production)\n![](https://img.shields.io/github/languages/code-size/chienhsiang-hung/kaggle-profile-summary-card)\n![](https://img.shields.io/github/repo-size/chienhsiang-hung/kaggle-profile-summary-card)\n![](https://img.shields.io/github/v/release/chienhsiang-hung/kaggle-profile-summary-card?include_prereleases)\n![](https://img.shields.io/github/discussions/chienhsiang-hung/kaggle-profile-summary-card)\n![](https://img.shields.io/github/checks-status/chienhsiang-hung/kaggle-profile-summary-card/main)\n\n![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung)\n\nHave been searching for Kaggle profile card for long? Here is what you need to showcase your ML/DL achievements!\n\n### Example\n[Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/)","userLastActive":"2022-08-02T11:59:41.250Z","userJoinDate":"2020-12-02T05:35:30.827Z","performanceTier":"EXPERT","performanceTierCategory":"ACHIEVEMENT_SUMMARY_TYPE_COMPETITIONS","activePaneTier":"EXPERT","userUrl":"/chienhsianghung","userAvatarUrl":"https://storage.googleapis.com/kaggle-avatars/images/6294032-kg.png","canCreateDatasets":true,"userName":"chienhsianghung","activePane":"PROFILE_AREA_HOME","totalDatasets":18,"competitionsSummary":{"tier":"EXPERT","totalResults":8,"rankPercentage":0.020082776,"rankOutOf":188221,"rankCurrent":3780,"rankHighest":2368,"totalSilverMedals":1,"totalBronzeMedals":1,"highlights":[{"title":"Shopee - Price Match Guarantee","date":"2021-05-10T23:59:00Z","medal":"SILVER","score":85,"scoreOutOf":2426,"url":"/competitions/shopee-product-matching","thumbnailUrl":"https://storage.googleapis.com/kaggle-competitions/kaggle/24286/logos/thumb76_76.png?t=2020-11-20-21-03-50"},{"title":"Human Protein Atlas - Single Cell Classification","date":"2021-05-11T23:59:00Z","medal":"BRONZE","score":69,"scoreOutOf":757,"url":"/competitions/hpa-single-cell-image-classification","thumbnailUrl":"https://storage.googleapis.com/kaggle-competitions/kaggle/23823/logos/thumb76_76.png?t=2020-12-10-16-31-06"},{"title":"Bristol-Myers Squibb \u2013 Molecular Translation","date":"2021-06-03T23:59:00Z","score":155,"scoreOutOf":874,"url":"/competitions/bms-molecular-translation","thumbnailUrl":"https://storage.googleapis.com/kaggle-competitions/kaggle/22422/logos/thumb76_76.png?t=2021-02-03-02-02-21"}],"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_COMPETITIONS"},"scriptsSummary":{"tier":"EXPERT","totalResults":58,"rankPercentage":0.0020158838,"rankOutOf":230172,"rankCurrent":464,"rankHighest":142,"totalGoldMedals":3,"totalSilverMedals":4,"totalBronzeMedals":10,"highlights":[{"title":"External_Datasets_Matching \u002B MLM","date":"2021-06-07T02:39:45.540Z","medal":"GOLD","score":92,"url":"/code/chienhsianghung/external-datasets-matching-mlm"},{"title":"Jane Street: Simple NN(MLP) w. PurgedGroupTS CV","date":"2021-02-22T18:27:13.330Z","medal":"GOLD","score":73,"url":"/code/chienhsianghung/jane-street-simple-nn-mlp-w-purgedgroupts-cv"},{"title":"External_Datasets_Matching \u002B MLMv4","date":"2021-06-07T02:45:17.910Z","medal":"GOLD","score":64,"url":"/code/chienhsianghung/external-datasets-matching-mlmv4"}],"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_NOTEBOOKS"},"discussionsSummary":{"tier":"EXPERT","totalResults":169,"rankPercentage":0.002479997,"rankOutOf":297581,"rankCurrent":738,"rankHighest":305,"totalGoldMedals":4,"totalSilverMedals":2,"totalBronzeMedals":83,"highlights":[{"title":" top 22,000 popular gov_datasets","date":"2021-05-25T08:19:35.147Z","medal":"GOLD","score":44,"url":"/competitions/coleridgeinitiative-show-us-the-data/discussion/241592#1322154"},{"title":"Zero Shakes and My First Silver Medal 5 Months Into Kaggle","date":"2021-05-11T01:42:47.643Z","medal":"GOLD","score":37,"url":"/competitions/shopee-product-matching/discussion/238020#1301219"},{"title":"Let\u0027s build a Non-Train-Matching, Train-Label-Removed LB","date":"2021-06-07T05:42:41.420Z","medal":"GOLD","score":35,"url":"/competitions/coleridgeinitiative-show-us-the-data/discussion/244505#1339217"}],"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_DISCUSSION"},"datasetsSummary":{"tier":"EXPERT","totalResults":18,"rankPercentage":0.010519747,"rankOutOf":67302,"rankCurrent":708,"rankHighest":180,"totalSilverMedals":1,"totalBronzeMedals":3,"highlights":[{"title":"Coleridge additional_gov_datasets_22000popular","date":"2021-05-24T16:04:20.567Z","medal":"SILVER","score":27,"url":"/datasets/chienhsianghung/coleridge-additional-gov-datasets-22000popular","thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-58.png-6294032/dataset-thumbnail.png"},{"title":"[Coleridge] BERT - MLMv4","date":"2021-06-02T06:10:08.783Z","medal":"BRONZE","score":18,"url":"/datasets/chienhsianghung/coleridge-bert-mlmv4","thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-74.png-6294032/dataset-thumbnail.png"},{"title":"Shopee - Price Match Guarantee| Embeddings","date":"2021-05-10T12:47:06.440Z","medal":"BRONZE","score":9,"url":"/datasets/chienhsianghung/shopee-price-match-guarantee-embeddings","thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/1276846/2127998/481814a2cc0ab85c4a3cdfc2f70b022f/dataset-thumbnail.jpg?t=2021-04-17-05-36-50"}],"summaryType":"ACHIEVEMENT_SUMMARY_TYPE_DATASETS"},"followers":{"type":"FOLLOWERS_LIST_TYPE_FOLLOWING","count":55,"list":[{"displayName":"Faisal Alsrheed","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4122826-kg.jpeg","userId":4122826,"userName":"faisalalsrheed","userUrl":"/faisalalsrheed","tier":"MASTER"},{"displayName":"PAVAN KUMAR D","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2357264-kg.jpg","userId":2357264,"userName":"mragpavank","userUrl":"/mragpavank","tier":"MASTER"},{"displayName":"Yasir Hussein Shakir","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4333519-kg.jpeg","userId":4333519,"userName":"yasserhessein","userUrl":"/yasserhessein","tier":"MASTER"},{"displayName":"Tifo","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4679687-kg.jpeg","userId":4679687,"userName":"fankaixie","userUrl":"/fankaixie","tier":"MASTER"},{"displayName":"Yue Sun","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5998972-kg.jpg","userId":5998972,"userName":"yus002","userUrl":"/yus002","tier":"MASTER"},{"displayName":"Jagdish Mirchandani","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":2133190,"userName":"jagdmir","userUrl":"/jagdmir","tier":"MASTER"},{"displayName":"Chun Fu","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2879491-kg.jpg","userId":2879491,"userName":"patrick0302","userUrl":"/patrick0302","tier":"EXPERT"},{"displayName":"Alien","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6294064-kg.JPG","userId":6294064,"userName":"h053473666","userUrl":"/h053473666","tier":"EXPERT"},{"displayName":"Salim Khazem","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1304974-kg.jpg","userId":1304974,"userName":"salimkhazem","userUrl":"/salimkhazem","tier":"EXPERT"},{"displayName":"Hiroshi Sakiyama","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5800072-kg.JPG","userId":5800072,"userName":"hiroshisakiyama","userUrl":"/hiroshisakiyama","tier":"EXPERT"},{"displayName":"kuroyuli","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3067037-kg.jpg","userId":3067037,"userName":"kuroyuli","userUrl":"/kuroyuli","tier":"EXPERT"},{"displayName":"Shogo Asa","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3313553-kg.jpg","userId":3313553,"userName":"shogo21","userUrl":"/shogo21","tier":"EXPERT"},{"displayName":"Arun Purakkatt","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3555842-kg.jpg","userId":3555842,"userName":"arunpurakkatt","userUrl":"/arunpurakkatt","tier":"EXPERT"},{"displayName":"Kelvin Chow","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4932167-kg.jpg","userId":4932167,"userName":"kelvinchow1979","userUrl":"/kelvinchow1979","tier":"EXPERT"},{"displayName":"Haiyun Hu","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5871096-kg.jpg","userId":5871096,"userName":"haiyunhu","userUrl":"/haiyunhu","tier":"EXPERT"},{"displayName":"YashSharma","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6396210-kg.jpg","userId":6396210,"userName":"yashsharmabharatpur","userUrl":"/yashsharmabharatpur","tier":"EXPERT"},{"displayName":"Muhammed Dalk\u0131ran","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5090814-kg.jpeg","userId":5090814,"userName":"muhammeddalkran","userUrl":"/muhammeddalkran","tier":"EXPERT"},{"displayName":"Aaditya Singhal","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4961108-kg.jpg","userId":4961108,"userName":"aadityasinghal","userUrl":"/aadityasinghal","tier":"CONTRIBUTOR"},{"displayName":"Brad Davis","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2128949-gp.jpg","userId":2128949,"userName":"goalieperson","userUrl":"/goalieperson","tier":"CONTRIBUTOR"},{"displayName":"Somsubhro Metya","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/603529-kg.jpeg","userId":603529,"userName":"somsubhrometya","userUrl":"/somsubhrometya","tier":"CONTRIBUTOR"},{"displayName":"Boyi-Lii","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6294078-kg.png","userId":6294078,"userName":"boyilii","userUrl":"/boyilii","tier":"CONTRIBUTOR"},{"displayName":"Zachary Katsnelson","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5614025-kg.jpg","userId":5614025,"userName":"zakarii","userUrl":"/zakarii","tier":"CONTRIBUTOR"},{"displayName":"Arvincheng","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1303952-gp.jpg","userId":1303952,"userName":"peterkenman123","userUrl":"/peterkenman123","tier":"CONTRIBUTOR"},{"displayName":"Kavya Sree","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1860670-kg.JPG","userId":1860670,"userName":"kavyasreeb","userUrl":"/kavyasreeb","tier":"CONTRIBUTOR"},{"displayName":"Pavlo Morozov","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1942225-gp.jpg","userId":1942225,"userName":"bugonort","userUrl":"/bugonort","tier":"CONTRIBUTOR"},{"displayName":"slow5620","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":3575901,"userName":"slow5620","userUrl":"/slow5620","tier":"CONTRIBUTOR"},{"displayName":"Jerry Yong","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3968823-kg.png","userId":3968823,"userName":"jerryyong","userUrl":"/jerryyong","tier":"CONTRIBUTOR"},{"displayName":"Rml2020","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6349913-kg.jpg","userId":6349913,"userName":"rml2020","userUrl":"/rml2020","tier":"CONTRIBUTOR"},{"displayName":"Zoeyyy Xu","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7194604-kg.jpg","userId":7194604,"userName":"zoeyyyxu","userUrl":"/zoeyyyxu","tier":"CONTRIBUTOR"},{"displayName":"TZU-WEI WANG","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7434201-kg.jpg","userId":7434201,"userName":"tzuweiwang","userUrl":"/tzuweiwang","tier":"CONTRIBUTOR"},{"displayName":"seikimaii huang","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7846413-kg.jpg","userId":7846413,"userName":"seikimaiihuang","userUrl":"/seikimaiihuang","tier":"CONTRIBUTOR"},{"displayName":"stanser chen","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6293058-gr.jpg","userId":6293058,"userName":"stanserchen","userUrl":"/stanserchen"},{"displayName":"Simon168","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6294068-gr.jpg","userId":6294068,"userName":"simon168","userUrl":"/simon168"},{"displayName":"chiang cherry","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":6294076,"userName":"chiangcherry","userUrl":"/chiangcherry"},{"displayName":"Chaimae Haoul","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":7128416,"userName":"chaimaehaoul","userUrl":"/chaimaehaoul"},{"displayName":"Yushiuan S","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":7172057,"userName":"yushiuans","userUrl":"/yushiuans"},{"displayName":"Doan Lien","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":3944146,"userName":"doanlien","userUrl":"/doanlien"},{"displayName":"Sumanth Puthusseri","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":7207619,"userName":"sumanthputhusseri","userUrl":"/sumanthputhusseri"},{"displayName":"peggie fang","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6294035-kg.JPG","userId":6294035,"userName":"peggiefang","userUrl":"/peggiefang"},{"displayName":"Haitham Alrayes","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5726189-kg.png","userId":5726189,"userName":"hythmalrys","userUrl":"/hythmalrys"},{"displayName":"jiadong li","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6126490-kg.jpg","userId":6126490,"userName":"jiadongli","userUrl":"/jiadongli"},{"displayName":"WangTris","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":6605568,"userName":"wangtris","userUrl":"/wangtris"},{"displayName":"linsonHo","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7014655-kg.jpg","userId":7014655,"userName":"linsonho","userUrl":"/linsonho"},{"displayName":"Lu Lue","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7286751-gr.jpg","userId":7286751,"userName":"lu7775","userUrl":"/lu7775"},{"displayName":"Prakash Sah Nepal","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":7299867,"userName":"prakashsahnepal","userUrl":"/prakashsahnepal"},{"displayName":"Tim Chang1997","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":7434183,"userName":"timchang1997","userUrl":"/timchang1997"},{"displayName":"fanch daniel","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7437968-gr.jpg","userId":7437968,"userName":"fanchdaniel","userUrl":"/fanchdaniel"},{"displayName":"M.Mazhar","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":7454038,"userName":"mazhar01","userUrl":"/mazhar01"},{"displayName":"seiboo","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":7494569,"userName":"seiboo","userUrl":"/seiboo"},{"displayName":"Chiung-Yu Chao","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7586195-kg.jpg","userId":7586195,"userName":"chaochiungyu","userUrl":"/chaochiungyu"},{"displayName":"neetahivfuo","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7605576-kg.jpeg","userId":7605576,"userName":"neetahivfuo","userUrl":"/neetahivfuo"},{"displayName":"Adam Lin","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":7566893,"userName":"hooooola","userUrl":"/hooooola"},{"displayName":"SALAWU DAMOLA FARUK","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":8097247,"userName":"potter4ril52","userUrl":"/potter4ril52"},{"displayName":"Orkhan Suleymanli","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/10404548-kg.jpg","userId":10404548,"userName":"orkhansuleymanli","userUrl":"/orkhansuleymanli"},{"displayName":"Abhishek_S_S _Shinde","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":10715594,"userName":"arabhishekshinde","userUrl":"/arabhishekshinde"}]},"following":{"type":"FOLLOWERS_LIST_TYPE_FOLLOWING","count":41,"list":[{"displayName":"anokas","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/505747-fb.jpg","userId":505747,"userName":"anokas","userUrl":"/anokas","tier":"GRANDMASTER"},{"displayName":"bestfitting","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/708283-kg.jpg","userId":708283,"userName":"bestfitting","userUrl":"/bestfitting","tier":"GRANDMASTER"},{"displayName":"outrunner","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/933653-kg.jpg","userId":933653,"userName":"outrunner","userUrl":"/outrunner","tier":"GRANDMASTER"},{"displayName":"Chun Ming Lee","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1029053-kg.png","userId":1029053,"userName":"leecming","userUrl":"/leecming","tier":"GRANDMASTER"},{"displayName":"ryches","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1035002-fb.jpg","userId":1035002,"userName":"ryches","userUrl":"/ryches","tier":"GRANDMASTER"},{"displayName":"KeepLearning","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1039460-kg.jpg","userId":1039460,"userName":"mathormad","userUrl":"/mathormad","tier":"GRANDMASTER"},{"displayName":"Rachael Tatman","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1162990-gr.jpg","userId":1162990,"userName":"rtatman","userUrl":"/rtatman","tier":"GRANDMASTER"},{"displayName":"Khoi Nguyen","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1577135-kg.png","userId":1577135,"userName":"suicaokhoailang","userUrl":"/suicaokhoailang","tier":"GRANDMASTER"},{"displayName":"Chris Deotte","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1723677-kg.jpg","userId":1723677,"userName":"cdeotte","userUrl":"/cdeotte","tier":"GRANDMASTER"},{"displayName":"Theo Viel","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2062758-kg.png","userId":2062758,"userName":"theoviel","userUrl":"/theoviel","tier":"GRANDMASTER"},{"displayName":"xhlulu","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2352583-kg.PNG","userId":2352583,"userName":"xhlulu","userUrl":"/xhlulu","tier":"GRANDMASTER"},{"displayName":"Mr_KnowNothing","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2779944-kg.jpg","userId":2779944,"userName":"tanulsingh077","userUrl":"/tanulsingh077","tier":"GRANDMASTER"},{"displayName":"Mar\u00EDlia Prata","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3012786-kg.JPG","userId":3012786,"userName":"mpwolke","userUrl":"/mpwolke","tier":"GRANDMASTER"},{"displayName":"Carl McBride Ellis","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4051350-kg.png","userId":4051350,"userName":"carlmcbrideellis","userUrl":"/carlmcbrideellis","tier":"GRANDMASTER"},{"displayName":"Trent","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/144057-kg.jpg","userId":144057,"userName":"trentb","userUrl":"/trentb","tier":"MASTER"},{"displayName":"funkyboy","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/316036-kg.jpg","userId":316036,"userName":"super13579","userUrl":"/super13579","tier":"MASTER"},{"displayName":"katsu1110","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/590240-kg.jpg","userId":590240,"userName":"code1110","userUrl":"/code1110","tier":"MASTER"},{"displayName":"Lindada","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/717970-kg.jpg","userId":717970,"userName":"a763337092","userUrl":"/a763337092","tier":"MASTER"},{"displayName":"Ken Miller","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/908174-kg.jpg","userId":908174,"userName":"mlconsult","userUrl":"/mlconsult","tier":"MASTER"},{"displayName":"atom1231","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":1136500,"userName":"atom1231","userUrl":"/atom1231","tier":"MASTER"},{"displayName":"Prashant Kikani","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1270958-kg.png","userId":1270958,"userName":"prashantkikani","userUrl":"/prashantkikani","tier":"MASTER"},{"displayName":"Md Yasin Kabir","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1341302-kg.jpg","userId":1341302,"userName":"mykttu","userUrl":"/mykttu","tier":"MASTER"},{"displayName":"K\u0254uq Wang","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1501167-kg.jpg","userId":1501167,"userName":"gmhost","userUrl":"/gmhost","tier":"MASTER"},{"displayName":"Faisal Alsrheed","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4122826-kg.jpeg","userId":4122826,"userName":"faisalalsrheed","userUrl":"/faisalalsrheed","tier":"MASTER"},{"displayName":"omarsamir","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/619930-kg.png","userId":619930,"userName":"osamir","userUrl":"/osamir","tier":"EXPERT"},{"displayName":"MaXXX","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/622729-kg.png","userId":622729,"userName":"finlay","userUrl":"/finlay","tier":"EXPERT"},{"displayName":"Salim Khazem","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1304974-kg.jpg","userId":1304974,"userName":"salimkhazem","userUrl":"/salimkhazem","tier":"EXPERT"},{"displayName":"van73","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1889883-kg.jpeg","userId":1889883,"userName":"vanle73","userUrl":"/vanle73","tier":"EXPERT"},{"displayName":"pranshu","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2366385-kg.png","userId":2366385,"userName":"pranshu29","userUrl":"/pranshu29","tier":"EXPERT"},{"displayName":"Man of the year","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2590337-kg.jpg","userId":2590337,"userName":"manwithaflower","userUrl":"/manwithaflower","tier":"EXPERT"},{"displayName":"Chun Fu","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2879491-kg.jpg","userId":2879491,"userName":"patrick0302","userUrl":"/patrick0302","tier":"EXPERT"},{"displayName":"Hannes \u00D6hler","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":2963207,"userName":"hannes82","userUrl":"/hannes82","tier":"EXPERT"},{"displayName":"alan chen","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3154572-kg.jpg","userId":3154572,"userName":"alanchen1115","userUrl":"/alanchen1115","tier":"EXPERT"},{"displayName":"Kelvin Chow","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4932167-kg.jpg","userId":4932167,"userName":"kelvinchow1979","userUrl":"/kelvinchow1979","tier":"EXPERT"},{"displayName":"Alien","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6294064-kg.JPG","userId":6294064,"userName":"h053473666","userUrl":"/h053473666","tier":"EXPERT"},{"displayName":"Parth Dhameliya","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6426055-kg.jpeg","userId":6426055,"userName":"parthdhameliya77","userUrl":"/parthdhameliya77","tier":"EXPERT"},{"displayName":"Vatsal Mavani","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/6454946-kg.jpg","userId":6454946,"userName":"vatsalmavani","userUrl":"/vatsalmavani","tier":"EXPERT"},{"displayName":"Xiaonan Ji","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":6380,"userName":"xiaonanji","userUrl":"/xiaonanji","tier":"CONTRIBUTOR"},{"displayName":"SanjeetGupta","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/413230-fb.jpg","userId":413230,"userName":"datasan","userUrl":"/datasan","tier":"CONTRIBUTOR"},{"displayName":"Sherry","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2573291-kg.JPG","userId":2573291,"userName":"sherrytp","userUrl":"/sherrytp","tier":"CONTRIBUTOR"},{"displayName":"Igor Kucherevskiy","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","userId":3114995,"userName":"kucherevskiy","userUrl":"/kucherevskiy","tier":"CONTRIBUTOR"}]},"canSeeCallToAction":true,"canSeeNotifications":true,"canSeeAtMentions":true,"totalScripts":58,"userAllowsUserMessages":true,"@wf": "Users.ProfileDtoWireFormat3"});performance && performance.mark && performance.mark("ProfileContainerReact.componentCouldBootstrap");</script>
+<script nonce="jEYrW3mlrP6w6irQ4mcQrg==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="jEYrW3mlrP6w6irQ4mcQrg==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
