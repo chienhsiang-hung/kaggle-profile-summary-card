@@ -17,5 +17,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'text/html')
         self.end_headers()
         
-        self.wfile.write(mongodb.mydata.encode())
+        self.wfile.write(str(mongodb.mydata).encode())
         return
