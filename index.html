@@ -68,6 +68,9 @@
       .input-group-svg:hover .tooltiptext {
         visibility: visible;
       }
+      .input-group-svg-allround:hover .tooltiptext {
+        visibility: visible;
+      }
       .input-group-iframe:hover .tooltiptext {
         visibility: visible;
       }
@@ -120,6 +123,7 @@
 
         <div class="row">
           <div class="col">
+            <!-- SVG -->
             <div class="input-group input-group-sm mb-3">
               <input type="text" class="form-control" value="SVG" disabled>
             </div>
@@ -128,6 +132,18 @@
               <input id="my-card-svg-copy" type="text" class="form-control" value="![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung)">
             </div>
             <img id="my-card-svg" src="https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung" alt="Hsiang's Kaggle Summary Card" class='img-fluid' style="max-height:250px;">
+
+            <!-- SVG All-round -->
+            <div class="input-group input-group-sm mb-3">
+              <input type="text" class="form-control" value="SVG All-round" disabled>
+            </div>
+            <div class="input-group input-group-svg-allround input-group-sm mb-3">
+              <span class="tooltiptext" style="border-radius: 6px;">Copy Me</span>
+              <input id="my-card-svg-allround-copy" type="text" class="form-control" value="![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?chienhsianghung)">
+            </div>
+            <img id="my-card-svg-allround" src="https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?chienhsianghung" alt="Hsiang's Kaggle Summary Card All-round" class='img-fluid' style="max-height:250px;">
+
+            <!-- iFrame/ Object/ Embed -->
             <div class="input-group input-group-sm mb-3">
               <input type="text" class="form-control" value="iFrame/ Object/ Embed" disabled>
             </div>
@@ -209,6 +225,8 @@
         let user = document.getElementById("user").value;
         document.getElementById('my-card-svg-copy')['value'] = '![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?' + user + ')';
         document.getElementById('my-card-svg')['src'] = 'https://kaggle-card.chienhsiang-hung.eu.org/api/svg?' + user;
+        document.getElementById('my-card-svg-allround-copy')['value'] = '![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?' + user + ')';
+        document.getElementById('my-card-svg-allround')['src'] = 'https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?' + user;
         document.getElementById('my-card-html-copy')['value'] = '<iframe src="https://kaggle-card.chienhsiang-hung.eu.org/api/basic?' + user + '" width="100%" height="300" style="border:none; min-width: 800px;"></iframe>';
         document.getElementById('my-card-html')['src'] = 'https://kaggle-card.chienhsiang-hung.eu.org/api/basic?' + user;
       }
