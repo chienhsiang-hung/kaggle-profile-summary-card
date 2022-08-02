@@ -42,6 +42,10 @@ def summary_crawler(username):
     url = 'https://www.kaggle.com/' + username
     resp = requests.get(url)
 
+    # handle no user error
+    if resp.status_code == 404:
+        return False * 13
+
     resp = resp.text
     resp = resp[resp.find('ProfileContainerReact'):]
     resp = resp[resp.find('Kaggle.State.push'):]
@@ -78,3 +82,4 @@ def summary_crawler(username):
 if __name__ == '__main__':
     print( kaggle_crawler('chienhsianghung') )
     print( summary_crawler('chienhsianghung') )
+    print( summary_crawler('chienhsianghun') )
