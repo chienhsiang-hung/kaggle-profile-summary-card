@@ -5,8 +5,12 @@ from http.server import BaseHTTPRequestHandler
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
 
-        client = pymongo.MongoClient( os.environ.get('MONGODB_URI') )
-        db = client.test
+        myclient = pymongo.MongoClient( os.environ.get('MONGODB_URI') )
+        mydb = myclient['sample_weatherdata']
+        mycol = myclient['data']
+        
+        mydata = mycol.find_one()
+        print(mydata)
 
         self.send_response(200)
         self.send_header('Content-type', 'text/html')
