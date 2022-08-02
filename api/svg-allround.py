@@ -1,7 +1,8 @@
 from http.server import BaseHTTPRequestHandler
+import util
 from util.crawler import summary_crawler
 from util.datauri import img_to_datauri
-import util
+
 
 class handler(BaseHTTPRequestHandler):
 
