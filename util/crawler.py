@@ -44,7 +44,7 @@ def summary_crawler(username):
 
     # handle no user error
     if resp.status_code == 404:
-        return False * 13
+        return [False] * 13
 
     resp = resp.text
     resp = resp[resp.find('ProfileContainerReact'):]

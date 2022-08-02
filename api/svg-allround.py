@@ -69,8 +69,8 @@ class handler(BaseHTTPRequestHandler):
             <text fill="'''+scriptscolorAchieve+'''" font-family="Sans-serif" font-size="12" font-weight="bold" id="svg_13" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="320.84" xml:space="preserve" y="197">Datasets</text>
             <text fill="'''+discussionscolorAchieve+'''" font-family="Sans-serif" font-size="12" font-weight="bold" id="svg_14" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="399.84" xml:space="preserve" y="197">Notebooks</text>
             <text fill="'''+datasetscolorAchieve+'''" font-family="Sans-serif" font-size="12" font-weight="bold" id="svg_15" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="486.84" xml:space="preserve" y="197">Discussion</text>
-            <text fill="#333333" font-family="Sans-serif" font-size="15" id="svg_16" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" x="300" xml:space="preserve" y="230">Followers '''+followers+'''</text>
-            <text fill="#333333" font-family="Sans-serif" font-size="15" id="svg_17" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" x="415" xml:space="preserve" y="230">Following '''+following+'''</text>
+            <text fill="#333333" font-family="Sans-serif" font-size="15" id="svg_16" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" x="300" xml:space="preserve" y="230">Followers '''+str(followers)+'''</text>
+            <text fill="#333333" font-family="Sans-serif" font-size="15" id="svg_17" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" x="415" xml:space="preserve" y="230">Following '''+str(following)+'''</text>
           </g>
           </svg>
       '''
