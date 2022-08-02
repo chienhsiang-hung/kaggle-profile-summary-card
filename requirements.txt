@@ -1,5 +1,9 @@
 requests
+
 # imgkit
 # wkhtmltopdf
 # pytest-shutil
+
 pymongo
+dnspython 
+# The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv
