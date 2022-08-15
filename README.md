@@ -44,5 +44,5 @@ Then Copy and Paste to your website `<body>` section.
 It's always appreciated if you would like to [buy me a cofee](https://ko-fi.com/chienhsianghung) to support this API. Thank you :)
 
 ---
-`#api` `#profile` `#kaggle` `vercel` `business-card-app` `#kaggle-profile-api` `#kaggle-summary-card` `#kaggle-profile-summary-card-api` `#shareable-card-on-kaggle-profile`
+`#api` `#profile` `#kaggle` `#vercel` `#business-card-app` `#kaggle-profile-api` `#kaggle-summary-card` `#kaggle-profile-summary-card-api` `#shareable-card-on-kaggle-profile`
 
