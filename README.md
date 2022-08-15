@@ -15,7 +15,7 @@
 |--|--|--|
 | ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung) | ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?chienhsianghung) | ![](https://miro.medium.com/max/1400/1*Riggyr8nZMx-xxSp4AuE6A.png) |
 
-Have been searching for a Kaggle profile card for a long? Here is what you need to showcase your ML/DL achievements!
+Have been searching for a Kaggle profile card for a long? Here is what you need to showcase your ML/DL achievements for free! 
 
 ### Example
 Google search for **Kaggle Profile Card** or directly click in [Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/) to check out!
