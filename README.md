@@ -15,13 +15,12 @@
 |--|--|--|
 | ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg?chienhsianghung) | ![](https://kaggle-card.chienhsiang-hung.eu.org/api/svg-allround?chienhsianghung) | ![](https://miro.medium.com/max/1400/1*Riggyr8nZMx-xxSp4AuE6A.png) |
 
-
-
 Have been searching for a Kaggle profile card for a long? Here is what you need to showcase your ML/DL achievements!
 
 ### Example
 [Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/)
-or google search: **Kaggle Profile Card**
+or 
+google search: **Kaggle Profile Card**
 
 ## SVG served in Markdown and HTML
 ### Markdown
