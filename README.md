@@ -18,10 +18,7 @@
 Have been searching for a Kaggle profile card for a long? Here is what you need to showcase your ML/DL achievements!
 
 ### Example
-google search: **Kaggle Profile Card**
-or
-[Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/)
-
+Google search for **Kaggle Profile Card** or directly click in [Kaggle Profile Summary Card (chienhsiang-hung.github.io)](https://chienhsiang-hung.github.io/kaggle-profile-summary-card/) to check out!
 
 ## SVG served in Markdown and HTML
 ### Markdown
