@@ -59,7 +59,7 @@ class handler(BaseHTTPRequestHandler):
             <image height="41.46" id="svg_2" width="123" x="13" xlink:href="'''+util.kaggle_svg_dataurl+'''" y="15"/>
             <line fill="none" id="svg_7" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)" x1="7" x2="534" y1="65" y2="66"/>
             <image height="171" id="svg_10" transform="matrix(1 0 0 1 0 0)" width="171" x="6" xlink:href="data:image/png; base64,'''+userAvatarUrl+'''" y="71"/>
-            <text fill="#000000" font-family="Sans-serif" font-size="19" font-weight="bold" id="svg_12" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="189.67" xml:space="preserve" y="98">Chien-Hsiang, Hung</text>
+            <text fill="#000000" font-family="Sans-serif" font-size="19" font-weight="bold" id="svg_12" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="189.67" xml:space="preserve" y="98">'''+displayName+'''</text>
             <text fill="#999999" font-family="Sans-serif" font-size="14" id="svg_1" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="start" x="392" xml:space="preserve" y="28">Joined at '''+userJoinDate+'''</text>
             <image height="46" id="svg_3" width="46" x="210" xlink:href="data:image/png; base64,'''+competitionsAchieveUrl+'''" y="122"/>
             <image height="46" id="svg_8" width="46" x="295" xlink:href="data:image/png; base64,'''+scriptsSummaryAchieveUrl+'''" y="122"/>
